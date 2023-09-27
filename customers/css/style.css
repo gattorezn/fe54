@@ -1,0 +1,140 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+text-decoration: none;
+list-style-type: none;
+}
+
+/*font-family: 'Open Sans', sans-serif;
+font-family: 'Raleway', sans-serif;*/
+
+.container{
+width: auto;
+margin: 0 auto;
+width: 1170px;
+}
+
+.caption{
+    padding-top: 107px;
+
+    color: #000;
+text-align: center;
+font-family: Raleway;
+font-size: 36px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-transform: uppercase;
+}
+
+.custom-line{
+    width: 142px;
+    height: 2px;
+    background: #EC7979;
+    margin: 0 auto;
+    margin-top: 40px;
+    margin-bottom: 40px; 
+    border: none;
+}
+
+.subtitle{
+    color: #86878B;
+    text-align: center;
+    font-family: Raleway;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+} 
+.card-container{
+display: flex;
+justify-content: space-between;
+gap: 30px;
+margin-top: 229px;
+}
+
+.card{
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding: 25px 25px;
+    width: 370px;
+height: 180px;
+flex-shrink: 0;
+border-radius: 10px;
+background: #E2E2E2;
+
+color: #86878B;
+text-align: center;
+font-family: Raleway;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 21px; /* 116.667% */
+}
+
+.card::before{
+    content: "";
+    position: absolute;
+    bottom: -25px;
+    width: 0px;
+	height: 0px;
+	border-left: 25px solid transparent;
+	border-right: 25px solid transparent;
+	border-top: 25px solid #E2E2E2;
+    
+
+
+}
+
+.second-card-container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 66px;
+    margin-bottom: 107px;
+
+}
+
+.image{
+    display: flex;
+    align-items: center;
+
+}
+
+img{
+    width: 65px;
+    height: 65px;
+    border-radius: 70px;
+    margin-right: 30px;
+
+}
+.desc{
+    color: #000;
+font-family: Open Sans;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: 30px; /* 125% */
+text-transform: capitalize;
+display: flex;
+width: 269px;
+height: 30px;
+flex-direction: column;
+justify-content: center;
+flex-shrink: 0;
+}
+
+.text{
+    width: 270px;
+    color: #000;
+font-family: Raleway;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+h4{
+    margin-top: 19px;
+}
